@@ -216,3 +216,42 @@ header {
     color: white;
     font-size: 18px;
 }
+
+/* Run an extra mile styles */
+.run-container{
+    width: 80%;
+    margin-top: 80px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+    display: flex;
+    padding: 40px 0 40px;
+    
+}
+.run-content-1{
+    width: 40%;
+}
+.run-content-1 h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.run-content-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.run-content-1 button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 30px;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+.run-content-2{
+    width: 30%;
+}
+.run-content-2 img{
+    width: 100%;
+    border-radius: 15px;
+    background-position: center;
+}
