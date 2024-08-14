@@ -9,7 +9,7 @@
 
 }
 
-body {}
+
 
 header {
     background-color: rgba(0, 0, 0, 0.868);
@@ -259,7 +259,9 @@ header {
 .run-content-2 img {
     width: 100%;
     border-radius: 15px;
-    background-position: center;
+    /* background-position: center; */
+    object-fit: none;
+    object-position: 68% 30%;
 }
 
 /* bmi calculator style */
@@ -305,6 +307,7 @@ td {
 .bmi-chart th {
     color: white;
     padding: 10px;
+    text-align: left;
 }
 
 .bmi-chart td {
@@ -356,4 +359,166 @@ select {
     font-size: 15px;
     font-weight: 600;
     border: none;
+}
+
+
+/* meet our team style */
+
+.our-team {
+    width: 47%;
+    margin: 70px auto;
+    text-align: center;
+}
+.our-team h1{
+    color: white;
+}
+.our-team p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.our-team-container{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px;
+}
+.team-content-1{
+    width: 90%;
+    height: 85%;
+}
+.team-content-1 img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    height: 100%;
+}
+.team-content-1 h4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 345%;
+    left: 13%;
+}
+.team-content-1 p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    position: absolute;
+    top: 348%;
+    left: 13%;
+}
+
+.team-content-2{
+    width: 90%;
+    height: 85%;
+}
+.team-content-2 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.team-content-2 h4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 345%;
+    left: 39%;
+}
+.team-content-2 p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    position: absolute;
+    top: 348%;
+    left: 39%;
+}
+.team-content-3{
+    width: 90%;
+    height: 85%;
+}
+.team-content-3 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.team-content-3 h4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 345%;
+    left: 65%;
+}
+.team-content-3 p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    position: absolute;
+    top: 348%;
+    left: 65%;
+}
+.team-content-4{
+    width: 90%;
+    height: 85%;
+}
+.team-content-4 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.team-content-4 h4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 393%;
+    left: 13%;
+}
+.team-content-4 p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    position: absolute;
+    top: 396%;
+    left: 13%;
+}
+.team-content-5{
+    width: 90%;
+    height: 85%;
+}
+.team-content-5 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.team-content-5 h4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 393%;
+    left: 39%;
+}
+.team-content-5 p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    position: absolute;
+    top: 396%;
+    left: 39%;
+}
+.team-content-6{
+    width: 90%;
+    height: 85%;
+}
+.team-content-6 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.team-content-6 h4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 393%;
+    left: 65%;
+}
+.team-content-6 p{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    position: absolute;
+    top: 396%;
+    left: 65%;
 }
