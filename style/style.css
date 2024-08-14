@@ -194,6 +194,7 @@ main {
 
 .change-content-1 h1 {
     color: white;
+    margin-bottom: 15px;
 }
 
 .change-content-1 p {
@@ -208,16 +209,20 @@ main {
 
 .change-content-2 img {
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .change-content-2 p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
+    text-align: center;
 }
 
 .change-content-2 h4 {
     color: white;
     font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* Run an extra mile styles */
@@ -262,7 +267,6 @@ main {
 .run-content-2 img {
     width: 100%;
     border-radius: 15px;
-    /* background-position: center; */
     object-fit: none;
     object-position: 68% 30%;
 }
@@ -276,6 +280,7 @@ main {
 
 .bmi-calculator h1 {
     color: white;
+    margin-bottom: 15px;
 }
 
 .bmi-calculator p {
@@ -375,6 +380,7 @@ select {
 }
 .our-team h1{
     color: white;
+    margin-bottom: 15px;
 }
 .our-team p{
     color: rgba(255, 255, 255, 0.5);
@@ -385,6 +391,7 @@ select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 15px;
+    border-radius: 15px;
 }
 .team-content-1{
     width: 90%;
@@ -400,14 +407,14 @@ select {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 345%;
+    top: 356%;
     left: 13%;
 }
 .team-content-1 p{
     color:  rgba(255, 255, 255, 0.5);
     font-size: 12px;
     position: absolute;
-    top: 348%;
+    top: 359%;
     left: 13%;
 }
 
@@ -424,14 +431,14 @@ select {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 345%;
+    top: 356%;
     left: 39%;
 }
 .team-content-2 p{
     color:  rgba(255, 255, 255, 0.5);
     font-size: 12px;
     position: absolute;
-    top: 348%;
+    top: 359%;
     left: 39%;
 }
 .team-content-3{
@@ -447,14 +454,14 @@ select {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 345%;
+    top: 356%;
     left: 65%;
 }
 .team-content-3 p{
     color:  rgba(255, 255, 255, 0.5);
     font-size: 12px;
     position: absolute;
-    top: 348%;
+    top: 359%;
     left: 65%;
 }
 .team-content-4{
@@ -470,14 +477,14 @@ select {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 393%;
+    top: 404%;
     left: 13%;
 }
 .team-content-4 p{
     color:  rgba(255, 255, 255, 0.5);
     font-size: 12px;
     position: absolute;
-    top: 396%;
+    top: 407%;
     left: 13%;
 }
 .team-content-5{
@@ -493,14 +500,14 @@ select {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 393%;
+    top: 404%;
     left: 39%;
 }
 .team-content-5 p{
     color:  rgba(255, 255, 255, 0.5);
     font-size: 12px;
     position: absolute;
-    top: 396%;
+    top: 407%;
     left: 39%;
 }
 .team-content-6{
@@ -516,14 +523,14 @@ select {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 393%;
+    top: 404%;
     left: 65%;
 }
 .team-content-6 p{
     color:  rgba(255, 255, 255, 0.5);
     font-size: 12px;
     position: absolute;
-    top: 396%;
+    top: 407%;
     left: 65%;
 }
 
