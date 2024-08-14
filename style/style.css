@@ -218,27 +218,31 @@ header {
 }
 
 /* Run an extra mile styles */
-.run-container{
+.run-container {
     width: 80%;
     margin-top: 80px;
     background-color: rgb(34, 34, 34);
     border-radius: 20px;
     display: flex;
     padding: 40px 0 40px;
-    
+
 }
-.run-content-1{
+
+.run-content-1 {
     width: 40%;
 }
-.run-content-1 h1{
+
+.run-content-1 h1 {
     color: white;
     margin-bottom: 20px;
 }
-.run-content-1 p{
+
+.run-content-1 p {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px;
 }
-.run-content-1 button{
+
+.run-content-1 button {
     width: 150px;
     height: 40px;
     background-color: rgb(230, 83, 60);
@@ -247,11 +251,109 @@ header {
     font-size: 17px;
     color: white;
 }
-.run-content-2{
+
+.run-content-2 {
     width: 30%;
 }
-.run-content-2 img{
+
+.run-content-2 img {
     width: 100%;
     border-radius: 15px;
     background-position: center;
+}
+
+/* bmi calculator style */
+
+.bmi-calculator {
+    width: 47%;
+    margin: 70px auto;
+}
+
+.bmi-calculator h1 {
+    color: white;
+}
+
+.bmi-calculator p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-chart-container {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    padding-top: 40px;
+}
+
+.bmi-chart {
+    width: 25%;
+}
+
+.bmi-chart h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bmi-chart table {
+    width: 100%;
+}
+
+.bmi-chart table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bmi-chart th {
+    color: white;
+    padding: 10px;
+}
+
+.bmi-chart td {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+.calculate-bmi {
+    width: 35%;
+}
+
+.calculate-bmi h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.calculate-bmi p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+}
+
+.calculate-bmi input,
+select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+.calculate-bmi select {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.calculate-bmi form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 25px;
+    gap: 10px;
+
+
+}
+
+.calculate-bmi button {
+    background-color: rgb(230, 83, 60);
+    padding: 10px;
+    border-radius: 20px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
 }
