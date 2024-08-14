@@ -14,6 +14,9 @@
 header {
     background-color: rgba(0, 0, 0, 0.868);
 }
+main {
+    padding-bottom: 80px;
+}
 
 /* navbar style */
 
@@ -521,4 +524,50 @@ select {
     position: absolute;
     top: 396%;
     left: 65%;
+}
+
+/* footer style */
+
+.footer-container{
+    width: 80%;
+    display: flex;
+    padding: 65px 0;
+}
+footer h1 {
+    color: rgb(230, 83, 60);
+    margin-bottom: 25px;
+}
+footer h3{
+    color: white;
+    margin-bottom: 25px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-content-1{
+    width: 45%;
+    margin-right: 160px;
+}
+.footer-content-2{
+    width: 20%;
+}
+.footer-content-2 p{
+    margin-bottom: 15px;
+}
+.footer-content-3{
+    width: 20%;
+}
+.footer-content-3 p{
+    margin-bottom: 15px;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-bottom: 60px;
+}
+#all-right{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 30px;
 }
