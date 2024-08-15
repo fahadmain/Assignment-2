@@ -369,7 +369,10 @@ select {
     font-weight: 600;
     border: none;
 }
-
+#activity{
+    grid-column: span 2;
+    width: 98%;
+}
 
 /* meet our team style */
 
